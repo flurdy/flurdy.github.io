@@ -10,11 +10,17 @@ header img#flurdy-logo {
 header img#github-logo {
    width: 4em;
 }
-ul.repolist-many {
+ul.two-column {
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
 }
 .recent-hidden {
    display: none;
+}
+#more-info img#codeatflurdy-logo {
+   width: 15em;
+}
+#more-info img#flurdy-logo-small {
+   width: 3.5em;
 }

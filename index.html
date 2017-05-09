@@ -5,6 +5,8 @@
    <title>flurdy.github.com</title>
    <link rel="stylesheet" href="flurdy.css">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js" type="text/javascript"></script>
+   <script src="github.js" type="text/javascript"></script>
    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -23,7 +25,7 @@
 
             <h4>With pages:</h4>
 
-            <ul class="list-group">
+            <ul class="repolist list-group">
                <li class="list-group-item">
                   <a href="https://flurdy.github.io/scaling-scala">Scaling Scala</a>
                </li>
@@ -34,11 +36,20 @@
 
          </div>
 
+         <div id="recent-list" class="recent-hidden">
+
+            <h4>Recent:</h4>
+
+            <ul class="repolist repolist-many list-group">
+            </ul>
+
+         </div>
+
          <div class="">
 
-            <h4>Popular without pages:</h4>
+            <h4>Popular:</h4>
 
-            <ul id="repolist" class="list-group">
+            <ul class="repolist repolist-many list-group">
                <li class="list-group-item">
                   <a href="https://github.com/flurdy/wishlist">Wishlist</a>
                </li>
@@ -51,15 +62,15 @@
                <li class="list-group-item">
                   <a href="https://github.com/flurdy/Dockerfiles">Dockerfiles</a>
                </li>
-               <li class="list-group-item">
+               <!-- <li class="list-group-item">
                   <a href="https://github.com/flurdy/pizzeria">Pizzeria</a>
-               </li>
+               </li> -->
                <li class="list-group-item">
                   <a href="https://github.com/flurdy/rustic-pizza">Rustic Pizza</a>
                </li>
-               <li class="list-group-item">
+               <!-- <li class="list-group-item">
                   <a href="https://github.com/flurdy/dotfiles">Dotfiles</a>
-               </li>
+               </li> -->
                <li class="list-group-item">
                   <a href="https://github.com/flurdy/sortingoffice">Sorting Office</a>
                </li>
@@ -75,15 +86,15 @@
                <li class="list-group-item">
                   <a href="https://github.com/flurdy/shoppinglist">Shopping List</a>
                </li>
-               <li class="list-group-item">
+               <!-- <li class="list-group-item">
                   <a href="https://github.com/flurdy/snaps">Snaps</a>
-               </li>
-               <li class="list-group-item">
+               </li> -->
+               <!-- <li class="list-group-item">
                   <a href="https://github.com/flurdy/docker-compose-machine-swarm-cloud-example">Docker Compose Machine Swarm cloud example</a>
-               </li>
-               <li class="list-group-item">
+               </li> -->
+               <!-- <li class="list-group-item">
                   <a href="https://github.com/flurdy/WebAppTemplate">Webapp Template</a>
-               </li>
+               </li> -->
             </ul>
          </div>
       </div>

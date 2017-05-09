@@ -1,0 +1,17 @@
+body {
+      text-align: center;
+}
+header {
+   padding: 2em;
+}
+header img#flurdy-logo {
+   width: 14em;
+}
+header img#github-logo {
+   width: 4em;
+}
+ul#repolist {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
